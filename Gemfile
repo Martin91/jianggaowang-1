@@ -35,7 +35,6 @@ gem 'spring', '~> 1.3.4',        group: :development
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'carrierwave', '~> 0.10.0'
-gem 'carrierwave-qiniu', '~> 0.1.3'
 
 gem 'kaminari', '~> 0.16.1'
 
@@ -78,6 +77,10 @@ gem 'friendly_id', '~> 5.1.0'
 
 # https://github.com/smartinez87/exception_notification#actionmailer-configuration
 gem 'exception_notification', '~> 4.0.1'
+
+# OneApm Ruby Agent
+# http://oneapm.com/features/ruby.html
+gem 'oneapm_rpm', '~> 1.3.6'
 
 group :development do
   gem 'web-console', '~> 2.0'
