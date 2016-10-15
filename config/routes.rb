@@ -28,6 +28,7 @@ Rails.application.routes.draw do
   resources :sessions, only: [:create]
 
   get '/signup' => 'users#new'
+
   resources :users, only: [:show, :create]
 
   resources :slides, only: [:index, :show, :create, :destroy, :edit, :update] do
